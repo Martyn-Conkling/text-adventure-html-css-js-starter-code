@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Adventure</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-6 d-flex justify-content-center align-content-center"><h1>Text Adventure</h1></div>
+        </div>
+        <div class="row justify-content-center">
+            
+            <div id="info-text" class="col-6 ">
+                
+                    <h2>You open your eyes.</h2>
+                    <h2>You are in a dim cave lying on the ground.</h2>
+                    <h2>Your head aches with a dull pain.</h2>
+                    <h2>Light is streaming in from a hole in the cave ceiling above you.</h2>
+                    <h2>You can see cave pathways to the east and the west.</h2>
+                    <h2>There are various rocks and things scattered around the cave.</h2>
+                    <p>What do you want to do?</p>
+
+            </div>
+
+        </div>
+
+        <div class="row justify-content-center ">
+            <div class="col-6 input-section">
+                <p>Enter a command in the text field below, type "help" for options </p>
+                <input id="user-input" class="user-input" type="text"> 
+                <button> Submit</button>
+
+
+            </div>
+        </div>
+
+    </div> <!-- End of Container -->
+
+   
+
+    
+
+    
+
+    <!-- This should be collapsable -->
+    <div id="info-history-section">
+        
+    </div>
+
+    <div class="character-sheet"></div>
+
+    <div class="items-list"></div>
+
+
+
+
+    
+</body>
+</html>
