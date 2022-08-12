@@ -1,0 +1,5 @@
+#info-text{
+    height: 600px;
+    overflow-y: scroll;
+    scroll-behavior: auto;
+}
